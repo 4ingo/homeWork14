@@ -20,11 +20,10 @@ public class Programmer extends Person{
 
     @Override
     public String toString() {
-        return "Programmer{" +
-                "companyName='" + companyName + '\'' +
-                super.getName()+'\''+
-                super.getDesignation()+'\''+
-                '}';
+        return "Programmer\n" +
+                "CompanyName: " + companyName+"\n" +
+                "Name: " + super.getName()+"\n" +
+                "Designation: " + super.getDesignation();
     }
 
     @Override

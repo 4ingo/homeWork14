@@ -45,10 +45,9 @@ public class Singer extends  Person{
 
     @Override
     public String toString() {
-        return "Singer{" +
-                "bandName='" + bandName + '\'' +
-                super.getName()+'\''+
-                super.getDesignation()+
-                '}';
+        return "Singer :" +
+                "bandName='" + bandName +"\n" +
+                "Name: "+super.getName()+"\n"+
+                "designation: "+super.getDesignation();
     }
 }

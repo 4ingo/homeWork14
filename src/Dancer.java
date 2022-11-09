@@ -14,11 +14,11 @@ public class Dancer extends  Person{
 
     @Override
     public String toString() {
-        return "Dancer{" +
-                "groupName='" + groupName + '\'' +
-                super.getName()+'\''+
-                super.getDesignation()+'\''+
-                '}';
+        return "Dancer\n" +
+                "groupName: " + groupName + "\n" +
+                "Name: "+super.getName()+"\n"+
+               "Designation : "+ super.getDesignation()+"\n"
+                ;
     }
 
     @Override
